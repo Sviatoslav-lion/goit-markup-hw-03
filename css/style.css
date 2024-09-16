@@ -22,7 +22,7 @@ body {
 ul {
     list-style-type: none;
 }
-header{
+.header-class {
     border-bottom: 1px solid #e7e9fc;
 }
 section {
@@ -38,6 +38,7 @@ section {
     letter-spacing: 0.03em;     /* для визначення відступів між літерами */
     text-transform: uppercase;  /* для визначення способу відображення літер */
     text-decoration: none;
+    margin-right: 76px;
 }
 .header-span {
     color: #2e2f42;
@@ -62,7 +63,7 @@ section {
 }
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .link {
     font-weight: 500;
@@ -83,11 +84,10 @@ section {
 }
 .adress-menu {
     font-style: normal; /* для прибирання курсиву */
-    
 }
-.adress-menu ul {
+.adress-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .adress-link  {
     font-weight: 400;
@@ -146,13 +146,13 @@ section {
     color: #ffffff;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    display: block;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     border: none;
     margin: 0 auto;
-    display: block;
 }
 .button:hover {
     background-color:#404BBF;
