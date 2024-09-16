@@ -111,10 +111,6 @@ section {
 /* ============================= MAIN =========================================*/
 /* ============================= section head =========================================*/
 
-.section-padings {
-
-}
-
 .section-head {
     background-color: #2e2f42;
     padding-top: 188px;
@@ -160,56 +156,6 @@ section {
     background-color:#404BBF;
 }
 /* ============================= section advantages =========================================*/
-.section-advantages {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-.advantages-list {
-    display: flex;
-    gap: 24px;
-}
-.advantages-item {
-    width: calc((100% - 72px) / 4);
-}
-/* ============================= section team =========================================*/
-.section-color {
-    background-color: #f4f4fd;
-    padding-bottom: 120px;
-    padding-top: 120px;
-}
-.team-list {
-    display: flex;
-    column-gap: 24px;
-}
-.team-item {
-    width: calc((100% - 72px) / 4);
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background-color: #fff;
-    padding-bottom: 32px;
-}
-.face-img {
-    margin-bottom: 32px;
-}
-.team-discr {
-    text-align: center;
-}
-.team-item .description {
-    text-align: center;
-}
-
-.title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding-bottom: 8px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.description {
-    color: #434455;
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -222,8 +168,18 @@ section {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-
-
+.section-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+.advantages-item {
+    width: calc((100% - 72px) / 4);
+}
+/* ============================= section team =========================================*/
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -235,6 +191,55 @@ section {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 72px;
+}
+.section-team {
+    background-color: #f4f4fd;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+.team-item {
+    width: calc((100% - 72px) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background-color: #fff;
+    padding-bottom: 32px;
+    border-radius: 0px 0px 4px 4px;
+}
+.text-box {
+    padding: 32px 0;
+}
+.face-img {
+    margin-bottom: 32px;
+}
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.team-description {
+    color: #434455;
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ============================ section portfolio ===================================*/
