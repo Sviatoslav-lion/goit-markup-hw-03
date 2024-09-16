@@ -109,6 +109,9 @@ section {
 }
 
 /* ============================= MAIN =========================================*/
+main {
+    margin-bottom: 60px;
+}
 /* ============================= section head =========================================*/
 
 .section-head {
@@ -243,7 +246,10 @@ section {
 }
 
 /* ============================ section portfolio ===================================*/
-    
+.section-portfolio {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
 .portfolio-list {
     display: flex;
     flex-direction: row;
@@ -254,24 +260,18 @@ section {
     padding-bottom: 120px;
 }
 .portfolio-item {
-    border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
     background-color: #fff;
     padding-bottom: 32px;
 }
-.portfolio-pading {
-    padding-left: 16px;
-}
-.portfolio-img {
-    margin-bottom: 32px;
-    flex-shrink: 1;
+.portfolio-box {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; /* для скидання стилів обводки для верхнього краю контейнера */
 }
 
 
-
-main {
-    margin-bottom: 60px;
-}
+/* ============================ footer ===================================*/
 .section-footer {
     padding-top: 100px;
     padding-bottom: 100px;
