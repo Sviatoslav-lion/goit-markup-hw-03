@@ -272,9 +272,8 @@ main {
 
 
 /* ============================ footer ===================================*/
-.section-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.footer {
+    padding: 100px 0;
 }
 .footer {
     color: #f4f4fd;
