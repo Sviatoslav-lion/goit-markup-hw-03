@@ -112,8 +112,7 @@ section {
 /* ============================= section head =========================================*/
 
 .section-padings {
-    padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 
 .section-head {
@@ -161,17 +160,16 @@ section {
     background-color:#404BBF;
 }
 /* ============================= section advantages =========================================*/
+.section-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .advantages-list {
     display: flex;
     gap: 24px;
 }
 .advantages-item {
     width: calc((100% - 72px) / 4);
-}
-.adv-title-gap {
-    padding-bottom: 8px;
-    margin-left: auto;
-    margin-right: auto;
 }
 /* ============================= section team =========================================*/
 .section-color {
@@ -205,6 +203,9 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .description {
     color: #434455;
@@ -244,6 +245,8 @@ section {
     column-gap: 24px;
     flex-wrap: wrap;
     row-gap:  48px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-item {
     border: 1px solid #e7e9fc;
