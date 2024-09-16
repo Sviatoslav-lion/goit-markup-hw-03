@@ -22,6 +22,9 @@ body {
 ul {
     list-style-type: none;
 }
+header{
+    border-bottom: 1px solid #e7e9fc;
+}
 section {
     text-decoration: none;
 }
@@ -40,20 +43,22 @@ section {
     color: #2e2f42;
 }
 .container {
+    display: flex; 
     max-width: 1158px;
     padding-left: 15px; 
     padding-right: 15px;
     margin-left: auto;
     margin-right:  auto;
 }
-.logo-nav-address {
+/*.logo-nav-address {
     display: flex;
-    justify-content: space-between;
+    
 }
+*/
 .page-nav {
     display: flex;
     column-gap: 76px;
-    align-items:center;
+    align-items: center;
 }
 .menu {
     display: flex;
