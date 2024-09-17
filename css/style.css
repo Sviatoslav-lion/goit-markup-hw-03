@@ -39,6 +39,7 @@ section {
     text-transform: uppercase;  /* для визначення способу відображення літер */
     text-decoration: none;
     margin-right: 76px;
+
 }
 .header-span {
     color: #2e2f42;
@@ -293,4 +294,8 @@ main {
     margin-top: 16px;
     text-transform: none;
     max-width: 264px;
+}
+.logo-footer {
+    margin-bottom: 16px; 
+    display: inline-block;
 }
